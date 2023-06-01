@@ -11,9 +11,10 @@
 
     --branco: #fff;
     --cinza: #887d7d;
+    --cinzasection: #a19e9e;
     --cinzaclaro: #f8e9e9;
     --verde: #b0f1be;
-    --roxo: #793080;
+    --roxo: #5a5252;
 
 }
 
@@ -41,6 +42,10 @@ header{
     justify-content: flex-end;
     gap: .8rem;
     min-width: 72rem;
+}
+
+.instagramatalho:hover{
+    color: #5a5252;
 }
 
 
@@ -81,7 +86,12 @@ nav{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .botoes:hover{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: var(--verde);
+}
+
+.ordembotao:hover{
+    color: var(--verde);
 }
 
 .ordembotao{
@@ -169,12 +179,12 @@ h1{
 
 .section3{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    background-color: var(--cinza);
+    background-color: var(--cinzasection);
     min-height: 19rem;
 }
 
@@ -191,12 +201,12 @@ h1{
 
 .section4{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 12rem;
-    background-color: var(--cinza);
+    gap: 10.1rem;
+    background-color: var(--cinzasection);
     min-height: 19rem;
 }
 
@@ -206,7 +216,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 10.1rem;
     background-color: var(--cinza);
     min-height: 23rem;
 }
@@ -253,7 +263,16 @@ footer{
     margin-top: 10px;
     line-height: 1.4rem;
     font-size: medium;
-    }
+    max-width: 32rem; 
+}
+
+.corpo1{
+    letter-spacing: .8px;
+    margin-top: 10px;
+    line-height: 1.4rem;
+    font-size: medium;
+
+}
 
 .titulos{
     display: flex;
