@@ -40,7 +40,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: .8rem;
+    gap: 1rem;
     min-width: 72rem;
 }
 
@@ -174,7 +174,7 @@ h1{
     justify-content: center;
     gap: 10rem;
     background-color: var(--cinza);
-    min-height: 19rem;
+    min-height: 20rem;
 }
 
 .section3{
@@ -185,7 +185,7 @@ h1{
     justify-content: center;
     gap: 10rem;
     background-color: var(--cinzasection);
-    min-height: 19rem;
+    min-height: 20rem;
 }
 
 .sectionsamambaias{
@@ -196,7 +196,7 @@ h1{
     justify-content: center;
     gap: 10rem;
     background-color: var(--cinza);
-    min-height: 18rem;
+    min-height: 19.5rem;
 }
 
 .section4{
@@ -207,7 +207,7 @@ h1{
     justify-content: center;
     gap: 10.1rem;
     background-color: var(--cinzasection);
-    min-height: 19rem;
+    min-height: 20rem;
 }
 
 .section5{
@@ -238,13 +238,11 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 6.9rem;
-    padding: 5rem;
+    gap: 15.9rem;
+    padding: 2rem;
     margin-top: 2rem;
     background-color: var(--cinza);
-    min-height: 8rem;
-
-    
+    min-height: 6rem;  
 }
 
 
@@ -255,7 +253,8 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    min-height: 6rem;
+    min-height: 4rem;
+    padding: .1rem;
 }
 
 .corpo{
@@ -304,8 +303,9 @@ footer{
 .redes2{
     display: flex;
     justify-content: center;
-    gap: .8rem;
+    gap: 1rem;
     margin-top: 20px;
+    color: black;
 }
 
 .mapagoogle{
@@ -313,7 +313,7 @@ footer{
 }
 
 .fotors{
-    max-width: 45px;
+    max-width: 30px;
 }
 
 h3{
