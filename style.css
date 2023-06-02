@@ -318,7 +318,7 @@ footer{
 }
 
 .mapagoogle{
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 1px 1px 10px 1px var(--cinzaback);
 }
 
