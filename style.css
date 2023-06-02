@@ -1,8 +1,4 @@
 *{
-@import url('https://fonts.googleapis.com/css2?family=Poppins :wght@200 & display=swap');
-}
-
-*{
     margin: 0;
     padding: 0;
 }
@@ -14,8 +10,8 @@
     --cinzasection: #a19e9e;
     --cinzaclaro: #f8e9e9;
     --verde: #b0f1be;
-    --roxo: #5a5252;
-
+    --cinzaback: #5a5252;
+    --roxo: #921087;
 }
 
 body{
@@ -29,11 +25,9 @@ header{
     flex-direction: row;
     min-height: 60px;
     flex-wrap: wrap;
-    padding: 1rem;
-    background-color: #5a5252;
+    padding: .2rem;
+    background-color: var(--cinzaback);
     align-items: center;
-
-
 }
 
 .redes{
@@ -41,11 +35,7 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     gap: 1rem;
-    min-width: 72rem;
-}
-
-.instagramatalho:hover{
-    color: #5a5252;
+    min-width: 76.5rem;
 }
 
 
@@ -86,7 +76,7 @@ nav{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .botoes:hover{
-    /*text-decoration: underline;*/
+
     color: var(--verde);
 }
 
@@ -100,7 +90,7 @@ nav{
     flex-direction: row-reverse;
     align-items: center;
     gap: .5rem;
-    color: #fff;
+    color: var(--branco);
 }
 
 main{
@@ -120,6 +110,8 @@ section{
     align-items: center;
     justify-content: center;
     min-height: 15rem;
+    margin-left: 2rem;
+
 
     }
 
@@ -155,14 +147,18 @@ h1{
     justify-content: center;
     letter-spacing: .1rem;
     align-items: center;
-    background-color: #5a5252;
+    background-color: var(--cinzaback);
     font-size: larger;
     min-height: 2rem;
-    color: #fff;
+    color: var(--branco);
     gap: .5rem;
     margin-top: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.rodapeprodutos{
+    background-color: var(--cinzaback);
+    min-height: 2rem;
 }
 
 .section2{
@@ -208,6 +204,7 @@ h1{
     gap: 10.1rem;
     background-color: var(--cinzasection);
     min-height: 20rem;
+    padding: .9rem;
 }
 
 .section5{
@@ -219,6 +216,7 @@ h1{
     gap: 10.1rem;
     background-color: var(--cinza);
     min-height: 23rem;
+    padding: 1.2rem;
 }
 
 .section6{
@@ -247,14 +245,25 @@ h1{
 
 
 footer{
-    background-color: #5a5252;
+    background-color: var(--cinzaback);
+}
+
+.rodape{
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
-    min-height: 4rem;
-    padding: .1rem;
+    min-height: 3rem;
+    gap: .5rem;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #a19e9e;
+}
+
+.textrodape{    
+
 }
 
 .corpo{
@@ -262,7 +271,7 @@ footer{
     margin-top: 10px;
     line-height: 1.4rem;
     font-size: medium;
-    max-width: 32rem; 
+    max-width: 35rem; 
 }
 
 .corpo1{
@@ -310,13 +319,23 @@ footer{
 
 .mapagoogle{
     border-radius: 10%;
+    box-shadow: 1px 1px 10px 1px var(--cinzaback);
 }
 
 .fotors{
-    max-width: 30px;
+    max-width: 20px;
 }
 
 h3{
     letter-spacing: 1px;
-    font-size: small;
+    font-size: 10px;
+}
+
+.mapatext{
+    text-decoration: none;
+    color: #0da33f;
+}   
+
+.mapatext:hover{
+    text-decoration: underline;
 }
